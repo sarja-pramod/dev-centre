@@ -1,0 +1,28 @@
+.rectangle2{
+	background-color:#ffffff;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 15px;
+	padding:10;
+	display:flex;
+	font-weight: bold;
+	flex-direction:row;
+	
+	color:#4b4d61;
+	opacity:0.5;
+	padding:0 190px 0 140px;
+	
+}
+.tabs{
+	display:flex;
+	justify-content:flex-start;
+padding:62px 50px 30px 0;
+	
+}
+
+.all-doc{
+	color:#e20074;
+	padding-right:0;
+	border-bottom: 3px solid #e20074;
+	opacity:1;
+
+}

@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 	
 *{
@@ -53,38 +52,9 @@ body{
 }
 
 
-.rectangle{
-	display:flex;
-	flex-direction:column;
 
-	font-family: Roboto, Helvetica, sans-serif;
-    font-size: 28px;
-    font-weight: bolder;
-    font-stretch: normal;
-    font-style: normal;
-	padding:0px;
-	justify-content: space-around;
-	
-}
-.main-rect{
-	display:flex;
-	background-image: linear-gradient(to right,#909dc1,#474a68);
-	justify-content: space-between;
-	padding: 0 190px 0 140px;
-	align-items: center;
-	}
-	.new{
-		display:flex;
-		align-items: center;
-		justify-content: center;
-		color:#ffffff;
-		width:127px;
-		font-family: Roboto, Helvetica, sans-serif;
-		height:46px;
-		background-color:#e20074 ;
-		border:none;
-		outline: none;
-	}
+
+
 .rectangle1{
 	display:flex;
 	
@@ -94,56 +64,10 @@ body{
 	font-family: Roboto, Helvetica, sans-serif;
 	
 }
-.rectangle2{
-	background-color:#ffffff;
-	font-family: Roboto, Helvetica, sans-serif;
-	font-size: 15px;
-	padding:10;
-	display:flex;
-	font-weight: bold;
-	flex-direction:row;
-	
-	color:#4b4d61;
-	opacity:0.5;
-	padding:0 190px 0 140px;
-	
-}
-.tabs{
-	display:flex;
-	justify-content:flex-start;
-padding:62px 50px 30px 0;
-	
-}
 
-.all-doc{
-	color:#e20074;
-	padding-right:0;
-	border-bottom: 3px solid #e20074;
-	opacity:1;
 
-}
-.my_contri{
-	color:#f8fafd;
-	font-size:28px;
-	margin:0;
-	padding-top:26px;
-}
-.below-text{
-	color:#f8fafd;
-	font-size:10px;
-	margin-top:0%;
-	padding-bottom: 26px;
-	margin-bottom:0%
 
-	
-}
 
-.main-rect button.new>img{
-	padding:4px;
-height:16px;
-width:16px;
-
-}
 .all-content{
 display:flex;
 flex-direction:column;
@@ -156,113 +80,6 @@ width:97%;
 
 }
 
-table{
-
-    justify-content:space-between;
-    font-family:  Roboto, Helvetica, sans-serif;
-	margin: 0 190px 0 140px;
-	border-top: 1px solid grey;
-  
-}
-th{
-
-	opacity: 0.6;
-	font-family:  Roboto, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: normal;
-  text-align: left;
-  color: #4b4d61;
-  padding: 30px 40px 13px 10px;
-  box-shadow: none;
-  
-  
-  
-}
-.list-header{
-	
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
-}
-tr{
-    text-align: left;
-    padding: 10%;
-	box-shadow: 0 2px 5px 0 #d4dbe7;
-	
-  }
-  td{
-	text-align: left;
-	color: #4b4d61;
-	font-weight: bold;
-	font-size: 14px;
- 
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #4b4d61;
-  
-	
-    
-  }
-  .second{
-padding: 0 10px 0 10px;
-
-  }
-td>.Tdot{
-	height: 16px;
-	width: 16px;
-	margin-right:30px;
-}
-mark{
-	background-color:#ebf0f8;
-	padding:4px 20px;
-	border-radius: 60px;
-	color: #4b4d61;
-}
-
-.vector{
-	padding-top: 74px;
-	background-color:#ffffff;	
-    text-align: center;
-	width:60px;
-	font-family: Roboto, Helvetica, sans-serif;
-	box-shadow: 2px 10px 5px 0 rgba(0, 0, 0, 0.1);
-	font-size: 10px;
-	color: #979797;
-
-}
-.imgvect{
-	padding:10px 0;
-	margin: 5px 0;
-	color:#979797;
-	background-color:#ffffff;
-}
-.vectcolor{
-	color:#e20074;
-	background-color:#fce6f1;
-	padding:10px 0;
-	margin: 5px 0;
-
-}
-
-
-.green-dot1{
-		display:flex;
-		flex-direction: row;
-		height: 12px;
-		width: 12px;
-		margin:3px;
-		background-color: #5ecb5d;
-		border-radius: 50%;
-		
-}
-.vector div>img{
-    height: 16px;
-    width: 16px;
-
-}
 
 .grey-dot{
 	display:flex;
@@ -276,42 +93,9 @@ mark{
 	opacity: 0.3;
 
 	}
-.first{
-	display:flex;
-	align-items: center;
-	justify-content: flex-start;
-padding: 22px 0px 22px 30px;
-}
-.second.green-dot1{
-    /* width: 17%; */
-    padding: 5px 5px 5px 5px;
-}
-.Tdot img{
 
-	width:10px;
-	height:10px
-}
-.menu
-{
-/* width:10%; */
-padding: 25px 44px;
-font-size:16px;
-}
-.active.menu{
-	background-color: #ffffff;
-	padding: 23px 40px;
-    color: #e20074;
-}
-.header div.jason>.search	
-{
-	height: 30px;
-    width: 30px;
-}
-.header>div .D>img{
-height: 30px;
-width:30px;
 
-}
+
 .img11 img{
 	width:30px;
 	height: 30px;
@@ -320,30 +104,8 @@ width:30px;
 
 
 
-.second.change{
-	color :#e20074;
-}
-.pink-dot{
-	display:flex;
-	align-items: center;
-	justify-content: space-around;
-    height: 12px;
-	width: 12px;
-	margin:3px;
-	background-color: #e20074;
-	border-radius: 50%;
-}
 
-.show-more{
-	display:flex;
-	justify-content:flex-start;
-	color:#e20074;
-	font-family: Helvetica;
-	font-size: 14px;
-	text-align: left;
-	padding:30px 0 40px 525px;
 
-}
 
 
 
@@ -533,5 +295,3 @@ width:30px;
 	margin-left: -36px;
 }
 
-
- 

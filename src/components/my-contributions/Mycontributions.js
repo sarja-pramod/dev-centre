@@ -1,5 +1,6 @@
-import newbtn from "./pics/down_arrow.png";
+import newbtn from "../images/down_arrow.png";
 import Modal from "./modal.js"
+import style from "./Mycontributions.css"
 const f2=()=>{
   let modal = document.getElementById("myModal");
 modal.classList.toggle("modal_open");

@@ -1,8 +1,9 @@
-import proj from './pics/project.png';
-import jour from "./pics/journey.png";
-import events from "./pics/events.png";
-import access from "./pics/access.png";
-import contri from './pics/contri.png'
+import proj from '../images/project.png';
+import jour from "../images/journey.png";
+import events from "../images/events.png";
+import access from "../images/access.png";
+import contri from '../images/contri.png';
+import style from "./Sidenav.css"
 const sidelements=[
     {
         id:"vec1",

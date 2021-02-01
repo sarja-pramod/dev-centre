@@ -1,0 +1,33 @@
+
+.vector{
+	padding-top: 74px;
+	background-color:#ffffff;	
+    text-align: center;
+	width:60px;
+	font-family: Roboto, Helvetica, sans-serif;
+	box-shadow: 2px 10px 5px 0 rgba(0, 0, 0, 0.1);
+	font-size: 10px;
+	color: #979797;
+
+}
+.imgvect{
+	padding:10px 0;
+	margin: 5px 0;
+	color:#979797;
+	background-color:#ffffff;
+}
+.vectcolor{
+	color:#e20074;
+	background-color:#fce6f1;
+	padding:10px 0;
+	margin: 5px 0;
+
+}
+
+
+
+.vector div>img{
+    height: 16px;
+    width: 16px;
+
+}

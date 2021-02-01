@@ -1,5 +1,5 @@
-
-const rectangle1 = () => {
+import style from "./Tabs1.css"
+const Mycontributions = () => {
     return (
         <div className="rectangle1">
 	
@@ -12,4 +12,4 @@ const rectangle1 = () => {
     )
 }
 
-export default rectangle1
+export default Mycontributions

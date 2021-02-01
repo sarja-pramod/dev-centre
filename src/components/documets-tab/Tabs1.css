@@ -1,0 +1,20 @@
+.rectangle1{
+	display:flex;
+	
+	padding-left: 140px;
+
+	background-color:#f5f6f8;
+	font-family: Roboto, Helvetica, sans-serif;
+	
+}
+.menu
+{
+/* width:10%; */
+padding: 25px 44px;
+font-size:16px;
+}
+.active.menu{
+	background-color: #ffffff;
+	padding: 23px 40px;
+    color: #e20074;
+}

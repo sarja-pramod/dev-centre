@@ -1,10 +1,12 @@
-import  D from './pics/dd.png';
-import Arrow from './pics/Polygon7.svg';
-import Search from './pics/search.png';
-import Group from "./pics/Group.svg";
+import  D from '../images/dd.png';
+import Arrow from '../images/Polygon7.svg';
+import Search from '../images/search.png';
+import Group from "../images/Group.svg";
 import Jasondropdown from "./jasondropdown";
 import Lifecycledropdown from "./lifecycledropdown";
 import Sidepanel from "./sidepanel";
+import Style from "./Header.css"
+
 
 const jason_menu=()=> {
     document.getElementById("jasonDropdown").classList.toggle("arrow_box2");

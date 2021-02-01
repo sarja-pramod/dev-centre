@@ -1,9 +1,9 @@
-import Header from './components/Header';
-import Sidenav from './components/sidenav';
-import Mrectangle from './components/mainrectangle';
-import Mycontributions from './components/Mycontributions';
-import Tabs from './components/Tabs';
-import Table1 from './components/Table1';
+import Header from './components/header/Header';
+import Sidenav from './components/Sidenav/sidenav';
+import Mrectangle from './components/my-contributions/Mycontributions';
+import Mycontributions from './components/documets-tab/Tabs1';
+import Tabs from './components/Mycontri-tabs/MycontriTab';
+import Table1 from './components/Table/Table1';
 
 
 function App() {

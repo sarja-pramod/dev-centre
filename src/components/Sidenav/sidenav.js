@@ -9,7 +9,7 @@ const sidenav = () => {
         <div id="main-id" className="vector">
             <div>Your</div>	
 			<Sidenavelements/>
-		
+		  
             
         </div>
     )

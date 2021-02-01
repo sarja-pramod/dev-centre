@@ -1,0 +1,23 @@
+.rectangle{
+	display:flex;
+	flex-direction:column;
+
+	font-family: Roboto, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+	padding:0px;
+	justify-content: space-around;
+	
+}
+.header div.jason>.search	
+{
+	height: 30px;
+    width: 30px;
+}
+.header>div .D>img{
+height: 30px;
+width:30px;
+
+}

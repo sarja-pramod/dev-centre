@@ -1,6 +1,5 @@
-import React from 'react'
-
-const rectangle2 = () => {
+import Style from "./MycontriTabs.css"
+const Tabs = () => {
     return (
         <div className="rectangle2">
 	
@@ -12,4 +11,4 @@ const rectangle2 = () => {
     )
 }
 
-export default rectangle2
+export default Tabs

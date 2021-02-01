@@ -1,10 +1,9 @@
 import react,{useState} from 'react';
-import page1 from './pics/abc.jpg';
-import dots1 from "./pics/three.jpg";
+import page1 from '../images/abc.jpg';
+import dots1 from "../images/three.jpg";
 import json from './jsondata.json';
-import Show from './showmore';
 import data2 from "./showmordata"
-
+import Style from  "./Table.css"
 const Table1 = () => {
 
 var j=0;
