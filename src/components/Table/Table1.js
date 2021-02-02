@@ -4,6 +4,8 @@ import dots1 from "../images/three.jpg";
 import json from './jsondata.json';
 import data2 from "./showmordata"
 import Style from  "./Table.css"
+
+
 const Table1 = () => {
 
 var j=0;

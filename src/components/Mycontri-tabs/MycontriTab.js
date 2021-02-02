@@ -1,5 +1,5 @@
 import Style from "./MycontriTabs.css"
-const Tabs = () => {
+const MycontriTabs = () => {
     return (
         <div className="rectangle2">
 	
@@ -11,4 +11,4 @@ const Tabs = () => {
     )
 }
 
-export default Tabs
+export default MycontriTabs

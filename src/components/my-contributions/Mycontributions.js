@@ -8,7 +8,7 @@ let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];
 }
 
-const rectangle = () => {
+const Mycontributions = () => {
     return (
       <div className="main-rect">
       <div className="rectangle">
@@ -23,4 +23,4 @@ const rectangle = () => {
     )
 }
 
-export default rectangle
+export default Mycontributions
