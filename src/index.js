@@ -7,40 +7,43 @@ import reportWebVitals from './reportWebVitals';
 window.onclick = function(event) {
   let modal = document.getElementById("myModal");
 
-  document.getElementById("jasonDropdown").addEventListener('click', function (event) { 
+   let jason = document.getElementById("jasonDropdown");
+    //.addEventListener('click', function (event) { 
 
-    event.stopPropagation(); 
-}); 
-document.getElementById("lifeDropdown").addEventListener('click', function (event) { 
+//      event.stopPropagation(); 
+//  }); 
+//  document.getElementById("lifeDropdown").addEventListener('click', function (event) { 
 
-  event.stopPropagation(); 
-}); 
+//   event.stopPropagation(); 
+//  }); 
 
-  if ((!event.target.matches('.header-text')) ) {
-    let dropdowns = document.getElementsByClassName("life-dropdown-content");
-    let i;
-      let openDropdown = dropdowns[0];
-      if (openDropdown.classList.contains('life-dropdown-content')) {                                      
-        openDropdown.classList.remove('show')
-        openDropdown.classList.remove('arrow_box1');
-      }
+  // if ((!event.target.matches('.header-text')) ) {
+  //   let dropdowns = document.getElementsByClassName("life-dropdown-content");
+  //   let i;
+  //     let openDropdown = dropdowns[0];
+  //     if (openDropdown.classList.contains('life-dropdown-content')) {                                      
+  //       openDropdown.classList.remove('show')
+  //       openDropdown.classList.remove('arrow_box1');
+  //     }
     
-  }
+  // }
+
+
  
   if (event.target == modal) {
    
     modal.className="modal"
   }
-  if (!event.target.matches('.group')) {
-      let dropdowns = document.getElementsByClassName("jason-dropdown-content");
-      let i;
-        let openDropdown = dropdowns[0];
-        if (openDropdown.classList.contains('jason-dropdown-content')) {                                      
-          openDropdown.classList.remove('show')
-        openDropdown.classList.remove('arrow_box2');
-        }
+  // if (!event.target.matches('.group')) {
+  //     let dropdowns = document.getElementsByClassName("jason-dropdown-content");
+  //     let i;
+  //       let openDropdown = dropdowns[0];
+  //       if (openDropdown.classList.contains('jason-dropdown-content')) {                                      
+  //         openDropdown.classList.remove('show')
+  //       openDropdown.classList.remove('arrow_box2');
+  //       }
       
-    }
+  //   }
 
 
 

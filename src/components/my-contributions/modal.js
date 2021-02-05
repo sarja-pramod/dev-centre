@@ -1,13 +1,9 @@
-const close=()=>   {
-    let modal = document.getElementById("myModal");
-    modal.className="modal";
-    }
-    
-const modal = () => {
+
+const modal = ({state,closemodal}) => {
     return (
-        <div id="myModal" className="modal">
+        <div id="myModal" className={state?"modal":"modal modal_open"}>
         <div className="modal-content">
-          <span className="close" onClick={close}>&times;</span>
+          <span className="close" onClick={closemodal}>&times;</span>
         </div>
         
         </div>

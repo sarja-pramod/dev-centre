@@ -1,23 +1,23 @@
 import react,{useState} from 'react';
 import page1 from '../images/abc.jpg';
 import dots1 from "../images/three.jpg";
-import json from './jsondata.json';
+import initialdata from './jsondata.json';
 import data2 from "./showmordata"
 import Style from  "./Table.css"
 
 
 const Table1 = () => {
 
-var j=0;
+
     function handleclick() {
-var i;     
+let i;     
     for(i=0;i<data2.length;i++){
         json1.push(data2[i]);}
     show_more([...json1]);
-console.log("jgfd");
+
       }
    
-         const [json1,show_more]=useState(json);
+         const [json1,show_more]=useState(initialdata);
 
      
     return (

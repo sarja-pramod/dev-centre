@@ -1,13 +1,14 @@
 
  
- const  closeNav=()=> {
-   document.getElementById("mySidepanel").classList.toggle("show_sidepanel");
- }
 
 
-const sidepanel = () => {
+
+const sidepanel = ({show,closeNav}) => {
+  
+
+  console.log(show)
     return (
-        <div id="mySidepanel" className="sidepanel">
+        <div id="mySidepanel" className={show?"sidepanel":"sidepanel show_sidepanel"} >
 		<a href="#hh" className="closebtn" onClick={closeNav}>×</a>
 	  </div>
 	  
