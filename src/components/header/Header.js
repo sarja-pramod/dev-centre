@@ -9,11 +9,6 @@ import Style from "./Header.css"
 import {useState} from "react";
 
 
-
- 
-
-
-
 const Header = () => {
 
 	const [jasonstate,setjasonstate]=useState(false);
@@ -44,26 +39,24 @@ const Header = () => {
 			<div className="dev" onClick={()=>openNav()}  > DEV</div>
 			<div className="center" onClick={()=>openNav()} >CENTER</div>
 		</div>
-			<div className="header-part2">
+
+		<div className="header-part2">
 			<div className="header-text" onClick={()=>life_menu()}>Lifecycle<img src={Arrow}/></div>
 			
-			
-		{lifestate && <Lifecycledropdown/>}
+			{lifestate && <Lifecycledropdown/>}
 
-
-  
 			<div className="header-text">Starter Kits</div> 
 			<div className="header-text">Dev journey</div> 
 			<div className="header-text">Resources<img src={Arrow}/></div> 
 			<div className="header-text">community<img src={Arrow}/></div>
 		</div>
+		
 		<div className="header-part3">
 			<div className="jason"><img className="search" src={Search}/></div>
 			<div>jason</div>
 			<div><img onClick={()=>jason_menu()} className="group"  src={Group}/></div>
-        {jasonstate && <Jasondropdown/>}
-			
-
+        	{jasonstate && <Jasondropdown/>}
+		
 		</div>
        
 		

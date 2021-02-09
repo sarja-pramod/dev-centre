@@ -5,51 +5,51 @@
 	padding: 0 190px 0 140px;
 	align-items: center;
     }
-    .rectangle{
-        display:flex;
-        flex-direction:column;
-    
-        font-family: Roboto, Helvetica, sans-serif;
-        font-size: 28px;
-        font-weight: bolder;
-        font-stretch: normal;
-        font-style: normal;
-        padding:0px;
-        justify-content: space-around;
-        
-    }
-    
+.rectangle{
+    display:flex;
+    flex-direction:column;
 
-    .my_contri{
-        color:#f8fafd;
-        font-size:28px;
-        margin:0;
-        padding-top:26px;
-    }
-    .below-text{
-        color:#f8fafd;
-        font-size:10px;
-        margin-top:0%;
-        padding-bottom: 26px;
-        margin-bottom:0%
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    padding:0px;
+    justify-content: space-around;
     
-        
-    }
-    .new{
-		display:flex;
-		align-items: center;
-		justify-content: center;
-		color:#ffffff;
-		width:127px;
-		font-family: Roboto, Helvetica, sans-serif;
-		height:46px;
-		background-color:#e20074 ;
-		border:none;
-		outline: none;
-    }
-    .main-rect button.new>img{
-        padding:4px;
-    height:16px;
-    width:16px;
+}
+
+
+.my_contri{
+    color:#f8fafd;
+    font-size:28px;
+    margin:0;
+    padding-top:26px;
+}
+.below-text{
+    color:#f8fafd;
+    font-size:10px;
+    margin-top:0%;
+    padding-bottom: 26px;
+    margin-bottom:0%
+
     
-    }
+}
+.new{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    width:127px;
+    font-family: Roboto, Helvetica, sans-serif;
+    height:46px;
+    background-color:#e20074 ;
+    border:none;
+    outline: none;
+}
+.main-rect button.new>img{
+    padding:4px;
+height:16px;
+width:16px;
+
+}
