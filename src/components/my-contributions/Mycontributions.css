@@ -46,6 +46,7 @@
     background-color:#e20074 ;
     border:none;
     outline: none;
+    cursor:pointer;
 }
 .main-rect button.new>img{
     padding:4px;

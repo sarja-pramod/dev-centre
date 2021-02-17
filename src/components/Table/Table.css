@@ -80,6 +80,7 @@ mark{
 
 .show-more{
 	display:flex;
+	cursor:pointer;
 	justify-content:flex-start;
 	color:#e20074;
 	font-family: Helvetica;

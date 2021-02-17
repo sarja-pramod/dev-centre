@@ -3,7 +3,9 @@
      
       "document_title":"Proxy Generation Documentation",
       "stages":"Devolpment",
-      "owned_by": "Veneela Nagabandi"
+      "owned_by": "Veneela Nagabandi",
+      "status":"Published",
+      "dot":"green-dot1"
 
     
     },
@@ -11,20 +13,26 @@
    
       "document_title":"proxygen release notes ",
       "stages":"...",
-      "owned_by": "Veneela Nagabandi"
+      "owned_by": "Veneela Nagabandi",
+      "status":"Published",
+      "dot":"green-dot1"
     
       },
       {
   
         "document_title":"API Security Workshop",
         "stages":"Design",
-        "owned_by":"ER, Vinay"
+        "owned_by":"ER, Vinay",
+        "status":"Published",
+      "dot":"green-dot1"
       },
       {
      
         "document_title":"Doc under test",
         "stages":"...",
-        "owned_by":"Govindaraj, Santhosh"
+        "owned_by":"Govindaraj, Santhosh",
+        "status":"Published",
+      "dot":"green-dot1"
 
 
       },
@@ -32,7 +40,9 @@
       
         "document_title":"Common 401 Errors",
         "stages":"...",
-        "owned_by":"Govindaraj, Santhosh"
+        "owned_by":"Govindaraj, Santhosh",
+        "status":"Published",
+        "dot":"green-dot1"
 
 
       },
@@ -40,13 +50,19 @@
       
       "document_title":"Using API Explorer",
       "stages":"...",
-      "owned_by":"Govindaraj, Santhosh"
+      "owned_by":"Govindaraj, Santhosh",
+      "status":"Published",
+      "dot":"green-dot1"
+
       },
       {
      
         "document_title":"Proxy Generation Documentation",
         "stages":"Devolpment",
-        "owned_by": "Veneela Nagabandi"
+        "owned_by": "Veneela Nagabandi",
+        "status":"Published",
+        "dot":"green-dot1"
+
   
       
       },
@@ -54,20 +70,29 @@
      
         "document_title":"proxygen release notes ",
         "stages":"...",
-        "owned_by": "Veneela Nagabandi"
+        "owned_by": "Veneela Nagabandi",
+        "status":"Published",
+        "dot":"green-dot1"
+
       
         },
         {
     
           "document_title":"API Security Workshop",
           "stages":"Design",
-          "owned_by":"ER, Vinay"
+          "owned_by":"ER, Vinay",
+          "status":"Changes required",
+          "dot":"pink-dot"
+  
         },
         {
        
           "document_title":"Doc under test",
           "stages":"...",
-          "owned_by":"Govindaraj, Santhosh"
+          "owned_by":"Govindaraj, Santhosh",
+          "status":"Draft",
+          "dot":"grey-dot"
+  
   
   
         },
@@ -75,7 +100,9 @@
         
           "document_title":"Common 401 Errors",
           "stages":"...",
-          "owned_by":"Govindaraj, Santhosh"
+          "owned_by":"Govindaraj, Santhosh",
+          "status":"Draft",
+          "dot":"grey-dot"
   
   
         },
@@ -83,7 +110,9 @@
         
         "document_title":"Using API Explorer",
         "stages":"...",
-        "owned_by":"Govindaraj, Santhosh"
+        "owned_by":"Govindaraj, Santhosh",
+        "status":"Draft",
+          "dot":"grey-dot"
         }
       
 ]

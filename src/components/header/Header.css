@@ -41,6 +41,7 @@ width:30px;
 .header-part2{
 	display:flex;
 	justify-content: space-between;
+	cursor:pointer;
 	
 }
 .header div.header-part2>div{
@@ -58,6 +59,7 @@ width:30px;
 }
 .dev,.center{
 	font-size: 20px;
+	cursor:pointer;
 
 	font-weight:900;
 }
